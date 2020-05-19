@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    
+    <p>You are being redirected...</p>
+    
+    <script>
+      // replace these with your own urls
+      const urls = [
+        'https://facebook.com',
+        'https://stackoverflow.com',
+        'https://github.com'
+        ]
+      
+      const target = urls[Math.floor(Math.random()*urls.length)];
+      window.location.replace(target);
+      
+    </script>
+  </body>
+</html>
